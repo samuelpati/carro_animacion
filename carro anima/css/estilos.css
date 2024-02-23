@@ -1,0 +1,100 @@
+.container{
+    background-image: url(../multimedia/fondo.jpg);
+    height: 980px;
+  
+}
+.fondomover{
+    
+    animation: fondo 4s linear infinite reverse;
+}
+.container1{
+    position: absolute;
+    top: 610px;
+    right: 950px;
+
+}
+.container2{
+
+    position: absolute;
+    top: 799px;
+    right: 1320px;
+    width: 60px;
+   
+}
+.container3{
+    position: absolute;
+    top:799px;
+    right: 1035px;
+    width: 60px;
+   
+}
+.container4{
+    position: absolute;
+    top: 700px;
+    right: 850px;
+    width: px;
+   
+
+}
+.lucesmover{
+    animation: luce 2s infinite;
+}
+.llantas{
+   
+}
+.llantasmover{
+    animation: llantas 2s forwards linear infinite;
+}
+.llanta{
+    
+}
+.llantamover{
+    animation: llanta 2s forwards linear infinite;
+}
+@keyframes llantas{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes llanta{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes luce{
+    100%{
+        opacity: 100%;
+    }
+    0%{
+        opacity: 0%;
+    }
+}
+@keyframes fondo{
+   100% {
+    background-position-x: 1024px; 
+
+    }
+}
+.polvo{
+    width: 372.25px;
+    height: 202px;
+    background: url("../multimedia/polvo.png");
+    position: absolute;
+    top: 40rem;
+    left: 10rem;
+   
+   
+
+}
+.polvomover{
+    animation: polvo 2s infinite steps(5);
+}
+@keyframes polvo{
+    100%{
+         
+        background-position-x:785px;
+    }
+}
+.oculto{
+    display: none;
+}
